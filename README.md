@@ -1,3 +1,2 @@
 # Comic_test
-Wait why are you at this specific page?
-Go to releases page instead
+The sole reason Comic mod even became a thing is because textures, as such... lol
