@@ -1,0 +1,39 @@
+{
+  "atlases": [
+    "textures/combined.atlas"
+  ],
+  "font": {
+    "file": "font.fnt",
+    "textures": [ "font", "font-cjk" ],
+    "resolution": 32
+  },
+  "soundChannels": [
+    [ 10, "ELECTRIC_PIANO_1" ],
+    [ 11, "CELESTA" ],
+    [ 12, "ELECTRIC_BASS_PICK" ],
+    [ 13, "ACOUSTIC_GUITAR_JAZZ" ],
+    [ 14, "GLOCKENSPIEL" ],
+    [ 15, "LEAD_SAWTOOTH" ]
+  ],
+  "soundTracks": {
+    "BUTTON": "sounds/button.wav",
+    "NOTIFICATION": "sounds/notification.wav",
+    "SUCCESS": "sounds/success.wav",
+    "WARNING": "sounds/warning.wav",
+    "GAME_OVER": "sounds/game-over.wav",
+    "UPGRADE": "sounds/upgrade.wav",
+    "ENEMY_REACHED": "sounds/enemy-reached.wav",
+    "ABILITY": "sounds/ability.wav",
+    "LOOT": "sounds/loot.wav",
+    "RESEARCH": "sounds/research.wav",
+    "BUILDING_BUILT": "sounds/building-built.wav",
+    "AUTO_FORCE_WAVE": "sounds/auto-force-wave.wav",
+    "FAIL": "sounds/fail.wav"
+  },
+  "menuXmSoundTrack": "menu-music.zxm",
+  "colors": {
+    "game_background": "#9e9e9e",
+    "menu_background": "#9e9e9e",
+    "screen_border_gradient_normal": "#00000030"
+  }
+}
