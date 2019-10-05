@@ -1,0 +1,27 @@
+{
+  "columns": [                "BASIC",  "SNIPER", "CANNON", "FREEZING", "VENOM",  "SPLASH", "BLAST",  "MULTISHOT",  "MINIGUN",  "AIR",  "TESLA",  "MISSILE",  "FLAMETHROWER", "LASER" ],
+  "values":  {
+    "REGULAR":               [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "FAST":                  [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "STRONG":                [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "HELI":                  [ false,    false,    false,    true,       false,    true,     false,    true,         true,       true,   true,     true,       false,          true        ],
+    "JET":                   [ false,    false,    false,    false,      false,    true,     false,    true,         true,       true,   true,     true,       false,          true        ],
+    "ARMORED":               [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  false,    true,       true,           true        ],
+    "LIGHT":                 [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "TOXIC":                 [ true,     true,     true,     true,       false,    true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "ICY":                   [ true,     true,     true,     false,      true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "FIGHTER":               [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "HEALER":                [ false,    false,    false,    true,       false,    true,     false,    true,         true,       true,   true,     true,       false,          true        ],
+    "BOSS":                  [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "SNAKE_BOSS_HEAD":       [ true,     true,     true,     true,       false,    true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "SNAKE_BOSS_BODY":       [ true,     true,     true,     false,      false,    true,     true,     true,         true,       false,  true,     true,       true,           true        ],    
+    "SNAKE_BOSS_TAIL":       [ true,     true,     true,     false,      false,    true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "BROOT_BOSS":            [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "CONSTRUCTOR_BOSS":      [ true,     true,     true,     false,      true,     true,     true,     true,         true,       false,  true,     true,       true,           false       ],
+    "MOBCHAIN_BOSS_HEAD":    [ true,     true,     true,     false,      true,     true,     false,    true,         true,       false,  true,     true,       true,           true        ],
+    "MOBCHAIN_BOSS_BODY":    [ true,     true,     true,     false,      true,     true,     false,    true,         true,       false,  true,     true,       true,           true        ],
+    "MOBCHAIN_BOSS_CREEP":   [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+    "METAPHOR_BOSS":         [ true,     true,     true,     false,      true,     true,     false,    true,         true,       false,  true,     true,       true,           true        ],
+    "METAPHOR_BOSS_CREEP":   [ true,     true,     true,     true,       true,     true,     true,     true,         true,       false,  true,     true,       true,           true        ],
+  }
+}

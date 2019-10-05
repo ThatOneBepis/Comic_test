@@ -1,0 +1,1462 @@
+{
+    "STARTING_MONEY": {
+        "default": 200,
+        "icon": "icon-money",
+        "units": "UNITS"
+    },
+    "STARTING_HEALTH": {
+        "default": 20,
+        "icon": "icon-heart",
+        "units": "UNITS"
+    },
+    "FORCED_WAVE_BONUS": {
+        "default": 8,
+        "icon": "icon-wave-money",
+        "units": "PERCENTS"
+    },
+    "WAVE_INTERVAL": {
+        "default": 15,
+        "icon": "icon-wave-time",
+        "units": "SECONDS"
+    },
+    "MAX_LEVEL_ENERGY": {
+        "default": 3,
+        "icon": "icon-lightning-bolt",
+        "units": "UNITS"
+    },
+    "LEVEL_ENERGY_RESTORE_TIME": {
+        "default": 5400,
+        "icon": "icon-lightning-bolt-time",
+        "units": "SECONDS"
+    },
+    "USER_MAPS_ENERGY_RESTORE_TIME": {
+        "default": 7200,
+        "icon": "icon-lightning-bolt-time",
+        "units": "SECONDS"
+    },
+    "GAME_SAVES": {
+        "default": 1,
+        "icon": "icon-floppy",
+        "units": "BOOLEAN"
+    },
+    "MANUAL_GAME_SPEED": {
+        "default": 1,
+        "icon": "icon-speed-medium",
+        "units": "BOOLEAN"
+    },
+    "AUTO_WAVE_CALL": {
+        "default": 1,
+        "icon": "icon-stopwatch",
+        "units": "BOOLEAN"
+    },
+    "MAP_EDITOR": {
+        "default": 1,
+        "icon": "icon-edit",
+        "units": "BOOLEAN"
+    },
+    "ENDLESS_MODE": {
+        "default": 0,
+        "icon": "icon-infinitode-1-logo",
+        "units": "BOOLEAN"
+    },
+    "USER_MAP_MAX_SIZE": {
+        "default": 14,
+        "icon": "icon-density-high",
+        "units": "UNITS"
+    },
+    "GREEN_PAPERS_BONUS": {
+        "default": 0,
+        "icon": "icon-money",
+        "units": "PERCENTS"
+    },
+    "DEVELOPER_MODE": {
+        "default": 1,
+        "icon": "icon-terminal",
+        "units": "BOOLEAN"
+    },
+    "MDPS_COUNTER": {
+        "default": 0,
+        "icon": "icon-mdps",
+        "units": "BOOLEAN"
+    },
+    "SHOP_PURCHASE_BONUS": {
+        "default": 0,
+        "icon": "icon-dollar",
+        "units": "PERCENTS"
+    },
+    "ENEMIES_WALK_ON_PLATFORMS": {
+        "default": 0,
+        "icon": "icon-road",
+        "units": "BOOLEAN"
+    },
+    "ENEMIES_MAX_PATH_SEARCHES": {
+        "default": 0,
+        "icon": "icon-road:icon-count",
+        "units": "UNITS"
+    },
+    "MINER_COUNT_SCALAR": {
+        "default": 0,
+        "icon": "miner-scalar",
+        "units": "UNITS"
+    },
+    "MINER_COUNT_VECTOR": {
+        "default": 0,
+        "icon": "miner-vector",
+        "units": "UNITS"
+    },
+    "MINER_COUNT_MATRIX": {
+        "default": 0,
+        "icon": "miner-matrix",
+        "units": "UNITS"
+    },
+    "MINER_COUNT_TENSOR": {
+        "default": 0,
+        "icon": "miner-tensor",
+        "units": "UNITS"
+    },
+    "MINER_COUNT_INFIAR": {
+        "default": 0,
+        "icon": "miner-infiar",
+        "units": "UNITS"
+    },
+    "MINERS_INSTALL_DURATION": {
+        "default": 60,
+        "icon": "icon-clock:icon-miner-top",
+        "units": "SECONDS"
+    },
+    "MINER_SCALAR_INSTALL_DURATION": {
+        "default": 0,
+        "icon": "icon-clock:miner-scalar",
+        "units": "SECONDS"
+    },
+    "MINER_VECTOR_INSTALL_DURATION": {
+        "default": 0,
+        "icon": "icon-clock:miner-vector",
+        "units": "SECONDS"
+    },
+    "MINER_MATRIX_INSTALL_DURATION": {
+        "default": 0,
+        "icon": "icon-clock:miner-matrix",
+        "units": "SECONDS"
+    },
+    "MINER_TENSOR_INSTALL_DURATION": {
+        "default": 0,
+        "icon": "icon-clock:miner-tensor",
+        "units": "SECONDS"
+    },
+    "MINER_INFIAR_INSTALL_DURATION": {
+        "default": 0,
+        "icon": "icon-clock:miner-infiar",
+        "units": "SECONDS"
+    },
+    "ABILITY_FIREBALL_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-fireball",
+        "units": "UNITS"
+    },
+    "ABILITY_FIREBALL_COOLDOWN": {
+        "default": 45,
+        "icon": "icon-clock:icon-fireball",
+        "units": "SECONDS"
+    },
+    "ABILITY_FIREBALL_DAMAGE": {
+        "default": 50,
+        "icon": "icon-damage:icon-fireball",
+        "units": "PERCENTS"
+    },
+    "ABILITY_FIREBALL_FIRE_DAMAGE": {
+        "default": 25,
+        "icon": "icon-flame-damage:icon-fireball",
+        "units": "PERCENTS"
+    },
+    "ABILITY_BLIZZARD_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-blizzard",
+        "units": "UNITS"
+    },
+    "ABILITY_BLIZZARD_COOLDOWN": {
+        "default": 30,
+        "icon": "icon-clock:icon-blizzard",
+        "units": "SECONDS"
+    },
+    "ABILITY_BLIZZARD_DURATION": {
+        "default": 6,
+        "icon": "icon-freeze-in-time:icon-blizzard",
+        "units": "SECONDS"
+    },
+    "ABILITY_WINDSTORM_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-windstorm",
+        "units": "UNITS"
+    },
+    "ABILITY_WINDSTORM_COOLDOWN": {
+        "default": 60,
+        "icon": "icon-clock:icon-windstorm",
+        "units": "SECONDS"
+    },
+    "ABILITY_WINDSTORM_DURATION": {
+        "default": 2,
+        "icon": "icon-windstorm-clock:icon-windstorm",
+        "units": "SECONDS"
+    },
+    "ABILITY_THUNDER_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-thunder",
+        "units": "UNITS"
+    },
+    "ABILITY_THUNDER_COOLDOWN": {
+        "default": 45,
+        "icon": "icon-clock:icon-thunder",
+        "units": "SECONDS"
+    },
+    "ABILITY_THUNDER_DAMAGE": {
+        "default": 100,
+        "icon": "icon-damage:icon-thunder",
+        "units": "PERCENTS"
+    },
+    "ABILITY_THUNDER_CHARGES_COUNT": {
+        "default": 8,
+        "icon": "icon-count:icon-thunder",
+        "units": "UNITS"
+    },
+    "ABILITY_SMOKE_BOMB_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-smoke-bomb",
+        "units": "UNITS"
+    },
+    "ABILITY_SMOKE_BOMB_COOLDOWN": {
+        "default": 30,
+        "icon": "icon-clock:icon-smoke-bomb",
+        "units": "SECONDS"
+    },
+    "ABILITY_SMOKE_BOMB_DAMAGE": {
+        "default": 15,
+        "icon": "icon-damage:icon-smoke-bomb",
+        "units": "PERCENTS"
+    },
+    "ABILITY_SMOKE_BOMB_DURATION": {
+        "default": 7,
+        "icon": "icon-smoke-bomb-clock:icon-smoke-bomb",
+        "units": "SECONDS"
+    },
+    "ABILITY_FIRESTORM_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-firestorm",
+        "units": "UNITS"
+    },
+    "ABILITY_FIRESTORM_COOLDOWN": {
+        "default": 60,
+        "icon": "icon-clock:icon-firestorm",
+        "units": "SECONDS"
+    },
+    "ABILITY_FIRESTORM_DAMAGE": {
+        "default": 10,
+        "icon": "icon-damage:icon-firestorm",
+        "units": "PERCENTS"
+    },
+    "ABILITY_FIRESTORM_DURATION": {
+        "default": 5,
+        "icon": "icon-firestorm-clock:icon-firestorm",
+        "units": "SECONDS"
+    },
+    "ABILITY_BULLET_WALL_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-bullet-wall",
+        "units": "UNITS"
+    },
+    "ABILITY_BULLET_WALL_COOLDOWN": {
+        "default": 60,
+        "icon": "icon-clock:icon-bullet-wall",
+        "units": "SECONDS"
+    },
+    "ABILITY_BULLET_WALL_DAMAGE": {
+        "default": 75,
+        "icon": "icon-damage:icon-bullet-wall",
+        "units": "PERCENTS"
+    },
+    "ABILITY_BULLET_WALL_DENSITY": {
+        "default": 2,
+        "icon": "icon-projectile-count:icon-bullet-wall",
+        "units": "UNITS"
+    },
+    "ABILITY_BALL_LIGHTNING_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-ball-lightning",
+        "units": "UNITS"
+    },
+    "ABILITY_BALL_LIGHTNING_COOLDOWN": {
+        "default": 5,
+        "icon": "icon-clock:icon-ball-lightning",
+        "units": "SECONDS"
+    },
+    "ABILITY_BALL_LIGHTNING_DAMAGE": {
+        "default": 7.5,
+        "icon": "icon-damage:icon-ball-lightning",
+        "units": "PERCENTS"
+    },
+    "ABILITY_BALL_LIGHTNING_DURATION": {
+        "default": 10,
+        "icon": "icon-ball-lightning-clock:icon-ball-lightning",
+        "units": "SECONDS"
+    },
+    "ABILITY_LOIC_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-loic",
+        "units": "UNITS"
+    },
+    "ABILITY_LOIC_COOLDOWN": {
+        "default": 75,
+        "icon": "icon-clock:icon-loic",
+        "units": "SECONDS"
+    },
+    "ABILITY_LOIC_DAMAGE": {
+        "default": 40,
+        "icon": "icon-damage:icon-loic",
+        "units": "PERCENTS"
+    },
+    "ABILITY_LOIC_DURATION": {
+        "default": 5,
+        "icon": "icon-loic-clock:icon-loic",
+        "units": "SECONDS"
+    },
+    "ABILITY_NUKE_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-nuke",
+        "units": "UNITS"
+    },
+    "ABILITY_NUKE_COOLDOWN": {
+        "default": 90,
+        "icon": "icon-clock:icon-nuke",
+        "units": "SECONDS"
+    },
+    "ABILITY_NUKE_DAMAGE": {
+        "default": 90,
+        "icon": "icon-damage:icon-nuke",
+        "units": "PERCENTS"
+    },
+    "ABILITY_MAGNET_MAX_PER_GAME": {
+        "default": 0,
+        "icon": "icon-magnet",
+        "units": "UNITS"
+    },
+    "ABILITY_MAGNET_COOLDOWN": {
+        "default": 15,
+        "icon": "icon-clock:icon-magnet",
+        "units": "SECONDS"
+    },
+    "ABILITY_MAGNET_DAMAGE_MULTIPLIER": {
+        "default": 200,
+        "icon": "icon-damage-multiplier:icon-magnet",
+        "units": "PERCENTS"
+    },
+    "MODIFIER_BALANCE_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-balance-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_SEARCH_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-search-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_ATTACK_SPEED_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-attack-speed-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_ATTACK_SPEED_VALUE": {
+        "default": 15,
+        "icon": "icon-attack-speed:icon-modifier-attack-speed-research",
+        "units": "PERCENTS"
+    },
+    "MODIFIER_DAMAGE_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-damage-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_DAMAGE_VALUE": {
+        "default": 15,
+        "icon": "icon-damage:icon-modifier-damage-research",
+        "units": "PERCENTS"
+    },
+    "MODIFIER_BOUNTY_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-bounty-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_BOUNTY_VALUE": {
+        "default": 50,
+        "icon": "icon-coins:icon-modifier-bounty-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_EXPERIENCE_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-experience-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_EXPERIENCE_VALUE": {
+        "default": 50,
+        "icon": "icon-experience-plus:icon-modifier-experience-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_MINING_SPEED_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-mining-speed-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_MINING_SPEED_VALUE": {
+        "default": 20,
+        "icon": "icon-speed-high:icon-modifier-mining-speed-research",
+        "units": "PERCENTS"
+    },
+    "MODIFIER_POWER_COUNT": {
+        "default": 0,
+        "icon": "icon-modifier-power-research",
+        "units": "UNITS"
+    },
+    "MODIFIER_POWER_VALUE": {
+        "default": 5,
+        "icon": "icon-power:icon-modifier-power-research",
+        "units": "PERCENTS"
+    },
+    "TOWERS_STARTING_LEVEL": {
+        "default": 1,
+        "icon": "icon-experience-bar:icon-tower",
+        "units": "UNITS"
+    },
+    "TOWERS_MAX_EXP_LEVEL": {
+        "default": 3,
+        "icon": "icon-experience-max:icon-tower",
+        "units": "UNITS"
+    },
+    "TOWERS_MAX_UPGRADE_LEVEL": {
+        "default": 3,
+        "icon": "icon-upgrade-max:icon-tower",
+        "units": "UNITS"
+    },
+    "TOWERS_EXPERIENCE_MULTIPLIER": {
+        "default": 100,
+        "icon": "icon-experience-plus:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:icon-tower",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWERS_UPGRADE_PRICE": {
+        "default": 100,
+        "icon": "icon-upgrade-money:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_SELL_REFUND": {
+        "default": 50,
+        "icon": "icon-sell-refund:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_POWER_PER_LEVEL_TILL_10": {
+        "default": 0,
+        "icon": "icon-power-plus:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_POWER_PER_LEVEL_AFTER_10": {
+        "default": 1,
+        "icon": "icon-power-plus:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_RANGE": {
+        "default": 100,
+        "icon": "icon-range:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_DAMAGE": {
+        "default": 100,
+        "icon": "icon-damage:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_ATTACK_SPEED": {
+        "default": 100,
+        "icon": "icon-attack-speed:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_ROTATION_SPEED": {
+        "default": 100,
+        "icon": "icon-rotation-speed:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWERS_PROJECTILE_SPEED": {
+        "default": 100,
+        "icon": "icon-projectile-speed:icon-tower",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_BASIC": {
+        "default": 0,
+        "icon": "tower-basic",
+        "units": "BOOLEAN"
+    },
+    "TOWER_BASIC_PRICE": {
+        "default": 48,
+        "icon": "icon-build-price:tower-basic",
+        "units": "UNITS"
+    },
+    "TOWER_BASIC_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-basic",
+        "units": "UNITS"
+    },
+    "TOWER_BASIC_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-basic",
+        "units": "UNITS"
+    },
+    "TOWER_BASIC_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-basic",
+        "units": "UNITS"
+    },
+    "TOWER_BASIC_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-basic",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_BASIC_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_BASIC_DAMAGE_MULTIPLIER": {
+        "default": 100,
+        "icon": "icon-damage-multiplier:tower-basic",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_SNIPER": {
+        "default": 0,
+        "icon": "tower-sniper",
+        "units": "BOOLEAN"
+    },
+    "TOWER_SNIPER_PRICE": {
+        "default": 80,
+        "icon": "icon-build-price:tower-sniper",
+        "units": "UNITS"
+    },
+    "TOWER_SNIPER_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-sniper",
+        "units": "UNITS"
+    },
+    "TOWER_SNIPER_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-sniper",
+        "units": "UNITS"
+    },
+    "TOWER_SNIPER_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-sniper",
+        "units": "UNITS"
+    },
+    "TOWER_SNIPER_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-sniper",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_SNIPER_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_CRIT_CHANCE": {
+        "default": 100,
+        "icon": "icon-critical-damage-percent:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_CRIT_MULTIPLIER": {
+        "default": 100,
+        "icon": "icon-critical-damage:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_SNIPER_AIM_SPEED": {
+        "default": 100,
+        "icon": "icon-aim-time:tower-sniper",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_CANNON": {
+        "default": 0,
+        "icon": "tower-cannon",
+        "units": "BOOLEAN"
+    },
+    "TOWER_CANNON_PRICE": {
+        "default": 60,
+        "icon": "icon-build-price:tower-cannon",
+        "units": "UNITS"
+    },
+    "TOWER_CANNON_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-cannon",
+        "units": "UNITS"
+    },
+    "TOWER_CANNON_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-cannon",
+        "units": "UNITS"
+    },
+    "TOWER_CANNON_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-cannon",
+        "units": "UNITS"
+    },
+    "TOWER_CANNON_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-cannon",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_CANNON_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_CANNON_EXPLOSION_RANGE": {
+        "default": 100,
+        "icon": "icon-explosion-range:tower-cannon",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_FREEZING": {
+        "default": 0,
+        "icon": "tower-freezing",
+        "units": "BOOLEAN"
+    },
+    "TOWER_FREEZING_PRICE": {
+        "default": 80,
+        "icon": "icon-build-price:tower-freezing",
+        "units": "UNITS"
+    },
+    "TOWER_FREEZING_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-freezing",
+        "units": "UNITS"
+    },
+    "TOWER_FREEZING_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-freezing",
+        "units": "UNITS"
+    },
+    "TOWER_FREEZING_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-freezing",
+        "units": "UNITS"
+    },
+    "TOWER_FREEZING_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_FREEZING_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-freezing",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_FREEZING_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_FREEZING_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_FREEZING_FREEZE_PERCENT": {
+        "default": 100,
+        "icon": "icon-freeze-percent:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_FREEZING_FREEZE_SPEED": {
+        "default": 100,
+        "icon": "icon-freeze-in-time:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_FREEZING_POISON_DURATION_BONUS": {
+        "default": 100,
+        "icon": "icon-skull-and-bones-clock:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_FREEZING_CHAIN_LIGHTNING_LENGTH_BONUS": {
+        "default": 100,
+        "icon": "icon-lightning-length:tower-freezing",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_VENOM": {
+        "default": 0,
+        "icon": "tower-venom",
+        "units": "BOOLEAN"
+    },
+    "TOWER_VENOM_PRICE": {
+        "default": 100,
+        "icon": "icon-build-price:tower-venom",
+        "units": "UNITS"
+    },
+    "TOWER_VENOM_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-venom",
+        "units": "UNITS"
+    },
+    "TOWER_VENOM_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-venom",
+        "units": "UNITS"
+    },
+    "TOWER_VENOM_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-venom",
+        "units": "UNITS"
+    },
+    "TOWER_VENOM_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-venom",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_VENOM_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_VENOM_POISON_DURATION": {
+        "default": 100,
+        "icon": "icon-skull-and-bones-clock:tower-venom",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_SPLASH": {
+        "default": 0,
+        "icon": "tower-splash",
+        "units": "BOOLEAN"
+    },
+    "TOWER_SPLASH_PRICE": {
+        "default": 80,
+        "icon": "icon-build-price:tower-splash",
+        "units": "UNITS"
+    },
+    "TOWER_SPLASH_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-splash",
+        "units": "UNITS"
+    },
+    "TOWER_SPLASH_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-splash",
+        "units": "UNITS"
+    },
+    "TOWER_SPLASH_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-splash",
+        "units": "UNITS"
+    },
+    "TOWER_SPLASH_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-splash",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_SPLASH_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_ACCURACY": {
+        "default": 100,
+        "icon": "icon-crosshair:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_SPLASH_PROJECTILE_COUNT": {
+        "default": 100,
+        "icon": "icon-projectile-count:tower-splash",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_BLAST": {
+        "default": 0,
+        "icon": "tower-blast",
+        "units": "BOOLEAN"
+    },
+    "TOWER_BLAST_PRICE": {
+        "default": 75,
+        "icon": "icon-build-price:tower-blast",
+        "units": "UNITS"
+    },
+    "TOWER_BLAST_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-blast",
+        "units": "UNITS"
+    },
+    "TOWER_BLAST_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-blast",
+        "units": "UNITS"
+    },
+    "TOWER_BLAST_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-blast",
+        "units": "UNITS"
+    },
+    "TOWER_BLAST_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_BLAST_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-blast",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_BLAST_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_BLAST_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_BLAST_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_BLAST_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_BLAST_STUN_CHANCE": {
+        "default": 100,
+        "icon": "icon-stun:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_BLAST_STUN_DURATION": {
+        "default": 100,
+        "icon": "icon-stun-clock:tower-blast",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_MULTISHOT": {
+        "default": 0,
+        "icon": "tower-multishot",
+        "units": "BOOLEAN"
+    },
+    "TOWER_MULTISHOT_PRICE": {
+        "default": 90,
+        "icon": "icon-build-price:tower-multishot",
+        "units": "UNITS"
+    },
+    "TOWER_MULTISHOT_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-multishot",
+        "units": "UNITS"
+    },
+    "TOWER_MULTISHOT_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-multishot",
+        "units": "UNITS"
+    },
+    "TOWER_MULTISHOT_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-multishot",
+        "units": "UNITS"
+    },
+    "TOWER_MULTISHOT_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-multishot",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_MULTISHOT_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_PROJECTILE_COUNT": {
+        "default": 100,
+        "icon": "icon-projectile-count:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_MULTISHOT_SHOOT_ANGLE": {
+        "default": 100,
+        "icon": "icon-shot-angle:tower-multishot",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_MINIGUN": {
+        "default": 0,
+        "icon": "tower-minigun",
+        "units": "BOOLEAN"
+    },
+    "TOWER_MINIGUN_PRICE": {
+        "default": 110,
+        "icon": "icon-build-price:tower-minigun",
+        "units": "UNITS"
+    },
+    "TOWER_MINIGUN_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-minigun",
+        "units": "UNITS"
+    },
+    "TOWER_MINIGUN_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-minigun",
+        "units": "UNITS"
+    },
+    "TOWER_MINIGUN_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-minigun",
+        "units": "UNITS"
+    },
+    "TOWER_MINIGUN_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_MINIGUN_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-minigun",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_MINIGUN_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_MINIGUN_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_MINIGUN_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_MINIGUN_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_MINIGUN_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_MINIGUN_ACCELERATION": {
+        "default": 100,
+        "icon": "icon-speedometer-clock:tower-minigun",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_AIR": {
+        "default": 0,
+        "icon": "tower-air",
+        "units": "BOOLEAN"
+    },
+    "TOWER_AIR_PRICE": {
+        "default": 42,
+        "icon": "icon-build-price:tower-air",
+        "units": "UNITS"
+    },
+    "TOWER_AIR_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-air",
+        "units": "UNITS"
+    },
+    "TOWER_AIR_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-air",
+        "units": "UNITS"
+    },
+    "TOWER_AIR_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-air",
+        "units": "UNITS"
+    },
+    "TOWER_AIR_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-air",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_AIR_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_BURN_CHANCE": {
+        "default": 100,
+        "icon": "icon-flame-percent:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_AIR_BURNING_TIME": {
+        "default": 100,
+        "icon": "icon-flame-clock:tower-air",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_TESLA": {
+        "default": 0,
+        "icon": "tower-tesla",
+        "units": "BOOLEAN"
+    },
+    "TOWER_TESLA_PRICE": {
+        "default": 100,
+        "icon": "icon-build-price:tower-tesla",
+        "units": "UNITS"
+    },
+    "TOWER_TESLA_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-tesla",
+        "units": "UNITS"
+    },
+    "TOWER_TESLA_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-tesla",
+        "units": "UNITS"
+    },
+    "TOWER_TESLA_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-tesla",
+        "units": "UNITS"
+    },
+    "TOWER_TESLA_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-tesla",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_TESLA_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_CHAIN_LIGHTNING_LENGTH": {
+        "default": 100,
+        "icon": "icon-lightning-length:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TESLA_CHAIN_LIGHTNING_DAMAGE": {
+        "default": 100,
+        "icon": "icon-lightning-damage-2:tower-tesla",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_MISSILE": {
+        "default": 0,
+        "icon": "tower-missile",
+        "units": "BOOLEAN"
+    },
+    "TOWER_MISSILE_PRICE": {
+        "default": 150,
+        "icon": "icon-build-price:tower-missile",
+        "units": "UNITS"
+    },
+    "TOWER_MISSILE_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-missile",
+        "units": "UNITS"
+    },
+    "TOWER_MISSILE_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-missile",
+        "units": "UNITS"
+    },
+    "TOWER_MISSILE_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-missile",
+        "units": "UNITS"
+    },
+    "TOWER_MISSILE_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-missile",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_MISSILE_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_ATTACK_SPEED": {
+        "default": 0,
+        "icon": "icon-attack-speed:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_PROJECTILE_SPEED": {
+        "default": 0,
+        "icon": "icon-projectile-speed:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_EXPLOSION_RANGE": {
+        "default": 100,
+        "icon": "icon-explosion-range:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_MISSILE_LRM_AIM_SPEED": {
+        "default": 100,
+        "icon": "icon-rocket-aim-time:tower-missile",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_FLAMETHROWER": {
+        "default": 0,
+        "icon": "tower-flamethrower",
+        "units": "BOOLEAN"
+    },
+    "TOWER_FLAMETHROWER_PRICE": {
+        "default": 110,
+        "icon": "icon-build-price:tower-flamethrower",
+        "units": "UNITS"
+    },
+    "TOWER_FLAMETHROWER_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-flamethrower",
+        "units": "UNITS"
+    },
+    "TOWER_FLAMETHROWER_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-flamethrower",
+        "units": "UNITS"
+    },
+    "TOWER_FLAMETHROWER_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-flamethrower",
+        "units": "UNITS"
+    },
+    "TOWER_FLAMETHROWER_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-flamethrower",
+        "units": "PERCENTS"
+    },
+    "TOWER_FLAMETHROWER_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-flamethrower",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_FLAMETHROWER_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-flamethrower",
+        "units": "PERCENTS"
+    },
+    "TOWER_FLAMETHROWER_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-flamethrower",
+        "units": "PERCENTS"
+    },
+    "TOWER_FLAMETHROWER_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-flamethrower",
+        "units": "PERCENTS"
+    },
+    "TOWER_FLAMETHROWER_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-flamethrower",
+        "units": "PERCENTS"
+    },
+    "TOWER_FLAMETHROWER_BURNING_TIME": {
+        "default": 100,
+        "icon": "icon-flame-clock:tower-flamethrower",
+        "units": "PERCENTS"
+    },
+    "TOWER_TYPE_LASER": {
+        "default": 0,
+        "icon": "tower-laser",
+        "units": "BOOLEAN"
+    },
+    "TOWER_LASER_PRICE": {
+        "default": 100,
+        "icon": "icon-build-price:tower-laser",
+        "units": "UNITS"
+    },
+    "TOWER_LASER_STARTING_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-bar:tower-laser",
+        "units": "UNITS"
+    },
+    "TOWER_LASER_MAX_EXP_LEVEL": {
+        "default": 0,
+        "icon": "icon-experience-max:tower-laser",
+        "units": "UNITS"
+    },
+    "TOWER_LASER_MAX_UPGRADE_LEVEL": {
+        "default": 0,
+        "icon": "icon-upgrade-max:tower-laser",
+        "units": "UNITS"
+    },
+    "TOWER_LASER_EXPERIENCE_MULTIPLIER": {
+        "default": 0,
+        "icon": "icon-experience-plus:tower-laser",
+        "units": "PERCENTS"
+    },
+    "TOWER_LASER_EXPERIENCE_GENERATION": {
+        "default": 0,
+        "icon": "icon-experience-generation:tower-laser",
+        "units": "UNITS_PER_SECOND"
+    },
+    "TOWER_LASER_UPGRADE_PRICE": {
+        "default": 0,
+        "icon": "icon-upgrade-money:tower-laser",
+        "units": "PERCENTS"
+    },
+    "TOWER_LASER_RANGE": {
+        "default": 0,
+        "icon": "icon-range:tower-laser",
+        "units": "PERCENTS"
+    },
+    "TOWER_LASER_DAMAGE": {
+        "default": 0,
+        "icon": "icon-damage:tower-laser",
+        "units": "PERCENTS"
+    },
+    "TOWER_LASER_ROTATION_SPEED": {
+        "default": 0,
+        "icon": "icon-rotation-speed:tower-laser",
+        "units": "PERCENTS"
+    },
+    "TOWER_LASER_BATTERIES_CAPACITY": {
+        "default": 100,
+        "icon": "icon-battery-max:tower-laser",
+        "units": "PERCENTS"
+    },
+    "TOWER_LASER_CHARGING_SPEED": {
+        "default": 100,
+        "icon": "icon-aim-time:tower-laser",
+        "units": "PERCENTS"
+    }
+}
