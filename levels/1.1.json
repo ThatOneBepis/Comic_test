@@ -1,0 +1,189 @@
+{
+  "width": 11,
+  "height": 4,
+  "tiles": [
+    {
+      "type": "PLATFORM",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "type": "PLATFORM",
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "PLATFORM",
+      "x": 6,
+      "y": 0
+    },
+    {
+      "type": "XM_MUSIC_TRACK",
+      "x": 8,
+      "y": 0,
+      "d": {
+        "id": "101",
+        "track": "UEsDBBQAAAAIACetbU796ebmAwMAAJQMAAAsAAAAKyBBaVIgLSBlTGljZW5zZXIgRW11bGF0b3JpbnN0YWxsZXIgLSAxLjEueG3tVs9LG0EUfvsjq5YpSHOpFtvpoUVBtlGRig00MTEIumRJFi29hboHQROxEQq9rJ1L73sR8uf0n9JE3b7ZZHdmdTe1HgoFX5js5O33Zt775stjNr913fa+u0+tzv7pobtOm50Tlx53DtpdGtts/dhtW7ZDl8zlNbOwYhYKlOrKLAAY4dCBgILP74APRdWm0AsleKayVcLKxGNzxEszViRsi7CF+C2rEmYnsXIsroUrip814jcILr+QCfHrJO9XSJ4tETYjtlkjuFMMirZlb2LfWeus5ckmRSfcDeLXCGErRAr2fJskNuCvP+L6NIOGdYKlsEWR36iwBEgKvv2e1Qmr4PqLkusuDwhBpiQ+02ngGEEoJ0JeyPOyTtPf4kdRkIP9KvKAmxRFwKM0/k9pYIz1cGlU70qjgjy8T5PGZ0kazBm+Ri6HT0dkmCUQtifnPRerptcgGo2r7znhryFIiEWS2AgoPEnBRCmNk0yU7rmqjmTTs4n+I/T91EPsDBlOEEOH0fF+CQGJ7WIJYUHKMJYXM50hJbmiTDGhSqSIFDmx7TirvxOUOLFx3UYkmS6qRH6cRG1yNJe6Tq8euc+RY6n3iORHEiveu/vgd+jobXO5xBLbSkpMzDO7EE4zQLdkVbnNlyBNElZc0YO6kXQOkZikfWMZ8Qe3Xjn6r0Qeb6yYEqd8r94kETpWTIKKMf1JUB2JKQmdk0iWTepSIiClT71GDbk7B1/c9lf3ZPPo9LDV7ZyEFyUFQuOA8kGDdt3WEU2YBKCp9ghIACaULICqwDz8Cyvh7XYV8vAEqpCDX3+CA0XkPLyE57CM8yKOGo4syxmKrqtaDuv8QKgH/AJ919ZwvBiN0jvFu84gBUBVgiC46l9c9q9vcNmcYUxpxsSEpkMwGAz6F1f9y8vB1Q2oOd2YNHDkDF0JPjm2ZZq2hZd3Yappblgqv9CnfACaPGbDbujID4Bp8dk0n5mWo3CHZeth8rt7zR2cafOKWbabOjjc5zR3dShweK1pPR1VfREEr0pv9d9QSwECFAAUAAAACAAnrW1O/enm5gMDAACUDAAALAAAAAAAAAAAACAAAAAAAAAAKyBBaVIgLSBlTGljZW5zZXIgRW11bGF0b3JpbnN0YWxsZXIgLSAxLjEueG1QSwUGAAAAAAEAAQBaAAAATQMAAAAA"
+      }
+    },
+    {
+      "type": "PLATFORM",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "type": "ROAD",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "type": "ROAD",
+      "x": 5,
+      "y": 1
+    },
+    {
+      "type": "ROAD",
+      "x": 6,
+      "y": 1
+    },
+    {
+      "type": "PLATFORM",
+      "x": 7,
+      "y": 1
+    },
+    {
+      "type": "SPAWN",
+      "x": 0,
+      "y": 2,
+      "d": {
+        "d": 100,
+        "ae": [
+          {
+            "t": "REGULAR",
+            "f": 1,
+            "l": 0
+          },
+          {
+            "t": "STRONG",
+            "f": 3,
+            "l": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": "ROAD",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "type": "ROAD",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "type": "ROAD",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "type": "ROAD",
+      "x": 4,
+      "y": 2
+    },
+    {
+      "type": "SOURCE",
+      "x": 5,
+      "y": 2,
+      "d": {
+        "rd": 0.25,
+        "r": [
+          {
+            "t": "SCALAR",
+            "a": 100
+          }
+        ]
+      }
+    },
+    {
+      "type": "ROAD",
+      "x": 6,
+      "y": 2
+    },
+    {
+      "type": "ROAD",
+      "x": 7,
+      "y": 2
+    },
+    {
+      "type": "ROAD",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "type": "ROAD",
+      "x": 9,
+      "y": 2
+    },
+    {
+      "type": "TARGET",
+      "x": 10,
+      "y": 2,
+      "d": {
+        "da": false,
+        "usgv": false,
+        "gv": []
+      }
+    },
+    {
+      "type": "SOURCE",
+      "x": 1,
+      "y": 3,
+      "d": {
+        "rd": 0.25,
+        "r": [
+          {
+            "t": "SCALAR",
+            "a": 100
+          }
+        ]
+      }
+    },
+    {
+      "type": "PLATFORM",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "type": "PLATFORM",
+      "x": 3,
+      "y": 3
+    },
+    {
+      "type": "PLATFORM",
+      "x": 4,
+      "y": 3
+    },
+    {
+      "type": "PLATFORM",
+      "x": 5,
+      "y": 3
+    },
+    {
+      "type": "PLATFORM",
+      "x": 6,
+      "y": 3
+    },
+    {
+      "type": "PLATFORM",
+      "x": 7,
+      "y": 3
+    },
+    {
+      "type": "PLATFORM",
+      "x": 8,
+      "y": 3
+    }
+  ],
+  "gates": []
+}
