@@ -1,0 +1,92 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: comic_test.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- res/drawable-hdpi/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-hdpi/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-hdpi/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-hdpi/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-hdpi/notification_bg_low_normal.9.png
+- res/drawable-hdpi/notification_bg_low_pressed.9.png
+- res/drawable-hdpi/notification_bg_normal.9.png
+- res/drawable-hdpi/notification_bg_normal_pressed.9.png
+- res/drawable-mdpi/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-mdpi/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-mdpi/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-mdpi/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-mdpi/notification_bg_low_normal.9.png
+- res/drawable-mdpi/notification_bg_low_pressed.9.png
+- res/drawable-mdpi/notification_bg_normal.9.png
+- res/drawable-mdpi/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xhdpi/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xhdpi/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xhdpi/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xhdpi/notification_bg_low_normal.9.png
+- res/drawable-xhdpi/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi/notification_bg_normal.9.png
+- res/drawable-xhdpi/notification_bg_normal_pressed.9.png
+- res/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xxhdpi/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xxhdpi/common_google_signin_btn_text_light_normal_background.9.png
+- properties
+- wav
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  firebase-analytics.properties: '8'
+  firebase-common.properties: '8'
+  firebase-core.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  play-services-ads-base.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads-lite.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-drive.properties: '8'
+  play-services-games.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  com/badlogic/gdx.gwt.xml: '8'
+  com/badlogic/gdx/ai.gwt.xml: '8'
+  com/badlogic/gdx/ai/btree/utils/BehaviorTreeReader.rl: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl: '8'
+  com/badlogic/gdx/utils/JsonReader.rl: '8'
+  com/badlogic/gdx/utils/XmlReader.rl: '8'
+  com/badlogic/gdx/utils/arial-15.fnt: '8'
+  com/badlogic/gdx/utils/arial-15.png: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '1100'
+  versionName: R.1.5.4
