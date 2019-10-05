@@ -1,4 +1,4 @@
-.class public final Lcom/google/android/gms/common/zza;
+.class public final Lcom/google/android/gms/common/api/zza;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -10,7 +10,7 @@
     value = {
         "Ljava/lang/Object;",
         "Landroid/os/Parcelable$Creator<",
-        "Lcom/google/android/gms/common/ConnectionResult;",
+        "Lcom/google/android/gms/common/api/Scope;",
         ">;"
     }
 .end annotation
@@ -29,7 +29,7 @@
 
 # virtual methods
 .method public final synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-    .locals 7
+    .locals 5
 
     .line 7
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->validateObjectHeader(Landroid/os/Parcel;)I
@@ -40,91 +40,60 @@
 
     const/4 v2, 0x0
 
-    move-object v3, v1
-
-    move-object v4, v3
-
-    const/4 v1, 0x0
-
-    .line 12
+    .line 10
     :goto_0
     invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
 
-    move-result v5
+    move-result v3
 
-    if-ge v5, v0, :cond_0
+    if-ge v3, v0, :cond_0
 
-    .line 13
+    .line 11
     invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readHeader(Landroid/os/Parcel;)I
 
-    move-result v5
+    move-result v3
 
-    .line 14
-    invoke-static {v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->getFieldId(I)I
+    .line 12
+    invoke-static {v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->getFieldId(I)I
 
-    move-result v6
+    move-result v4
 
-    packed-switch v6, :pswitch_data_0
-
-    .line 27
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->skipUnknownField(Landroid/os/Parcel;I)V
-
-    goto :goto_0
-
-    .line 25
-    :pswitch_0
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->createString(Landroid/os/Parcel;I)Ljava/lang/String;
-
-    move-result-object v4
-
-    goto :goto_0
-
-    .line 21
-    :pswitch_1
-    sget-object v3, Landroid/app/PendingIntent;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 22
-    invoke-static {p1, v5, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->createParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
-
-    move-result-object v3
-
-    check-cast v3, Landroid/app/PendingIntent;
-
-    goto :goto_0
+    packed-switch v4, :pswitch_data_0
 
     .line 19
-    :pswitch_2
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
+    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->skipUnknownField(Landroid/os/Parcel;I)V
+
+    goto :goto_0
+
+    .line 17
+    :pswitch_0
+    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->createString(Landroid/os/Parcel;I)Ljava/lang/String;
+
+    move-result-object v2
+
+    goto :goto_0
+
+    .line 14
+    :pswitch_1
+    invoke-static {p1, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
 
     move-result v1
 
     goto :goto_0
 
-    .line 16
-    :pswitch_3
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
-
-    move-result v2
-
-    goto :goto_0
-
-    .line 29
+    .line 21
     :cond_0
     invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->ensureAtEnd(Landroid/os/Parcel;I)V
 
-    .line 30
-    new-instance p1, Lcom/google/android/gms/common/ConnectionResult;
+    .line 22
+    new-instance p1, Lcom/google/android/gms/common/api/Scope;
 
-    invoke-direct {p1, v2, v1, v3, v4}, Lcom/google/android/gms/common/ConnectionResult;-><init>(IILandroid/app/PendingIntent;Ljava/lang/String;)V
+    invoke-direct {p1, v1, v2}, Lcom/google/android/gms/common/api/Scope;-><init>(ILjava/lang/String;)V
 
     return-object p1
 
-    nop
-
     :pswitch_data_0
     .packed-switch 0x1
-        :pswitch_3
-        :pswitch_2
         :pswitch_1
         :pswitch_0
     .end packed-switch
@@ -134,7 +103,7 @@
     .locals 0
 
     .line 4
-    new-array p1, p1, [Lcom/google/android/gms/common/ConnectionResult;
+    new-array p1, p1, [Lcom/google/android/gms/common/api/Scope;
 
     return-object p1
 .end method
