@@ -13459,7 +13459,7 @@
       "name": "TOWER_MULTISHOT_RANGE",
       "category": "TOWER_RANGE",
       "x": 0,
-      "y": 0,""
+      "y": 0,
       "maxEndlessModeLevels": 20,
       "endlessPriceExp": 1,
       "comment": "",
